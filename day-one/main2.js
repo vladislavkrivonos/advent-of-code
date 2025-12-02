@@ -1,4 +1,4 @@
-const { readInputToArraySync } = require('./read.js');
+const { readInputToArray } = require('./read.js');
 
 function calculateZeros(array) {
     let counter = 50;
@@ -45,6 +45,6 @@ function calculateZeros(array) {
     return zerosCounter;
 }
 
-const input = readInputToArraySync();
+const input = readInputToArray();
 const res = calculateZeros(input);
 console.log(`Total amount of zero crosses: ${res}`);
