@@ -1,5 +1,6 @@
 const splitChar = ',';
 
+// Read input from file and return as array of strings
 function readInputToArray() {
     const fs = require('fs');
 
